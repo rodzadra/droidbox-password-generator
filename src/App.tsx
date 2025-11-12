@@ -102,14 +102,14 @@ function App() {
                   checked={options.number}
                   onCheckedChange={(v) => handleOptionChange("number")(!!v)}
                 />
-                NNumbers
+                Numbers
               </label>
               <label className="flex items-center gap-2">
                 <Switch
                   checked={options.symbol}
                   onCheckedChange={(v) => handleOptionChange("symbol")(!!v)}
                 />
-                SSymbols
+                Symbols
               </label>
               <label className="flex items-center gap-2">
                 <Switch
