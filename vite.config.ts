@@ -15,7 +15,7 @@ export default defineConfig({
     allowedHosts: ["pw.droidbox.com.br"],
   },
   build: {
-    outDir: "/var/www/ap.droidbox.com.br/web",
+    outDir: "/var/www/pw.droidbox.com.br/web",
     emptyOutDir: true,
   },
 });
